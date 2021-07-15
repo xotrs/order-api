@@ -50,13 +50,6 @@ CREATE TABLE `order` (
   KEY `member_id` (`member_id`),
   KEY `product_id` (`product_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
-  
-# INSERT INTO `order` (`id`, `product_title`, `product_id`, `member_id`, `created_at`)
-#VALUES
-#	('123ACFE89C12', '실버 마스크목걸이 마스크스트랩 4종류 목걸이겸용', 4, 1, '2021-07-10 16:35:21'),
-#	('12D4E6CE90Z3', '[프리저브드]기분좋은 블루수국 꽃다발💙', 2, 1, '2021-07-13 02:17:44'),
-#	('12GX4X51GX1A', '플라워 프린트 화이트 원피스', 3, 1, '2021-07-13 16:30:56'),
-#	('12GX4X51GX1F', '입점3주년기념할인⭐ 인기짱 다홍에그타르트', 1, 1, '2021-07-13 02:15:56');
 
 # 토큰
 CREATE TABLE `token` (
@@ -78,6 +71,13 @@ VALUES
 
 
 # 주문 정보는 API가 없어서 회원가입 후 상품 테이블의 id, 회원 테이블의 id 그리고 상품 제목을 같이 조합해서 데이터를 넣어주시면 감사하겠습니다.
+
+# INSERT INTO `order` (`id`, `product_title`, `product_id`, `member_id`, `created_at`)
+#VALUES
+#	('123ACFE89C12', '실버 마스크목걸이 마스크스트랩 4종류 목걸이겸용', 4, 1, '2021-07-10 16:35:21'),
+#	('12D4E6CE90Z3', '[프리저브드]기분좋은 블루수국 꽃다발💙', 2, 1, '2021-07-13 02:17:44'),
+#	('12GX4X51GX1A', '플라워 프린트 화이트 원피스', 3, 1, '2021-07-13 16:30:56'),
+#	('12GX4X51GX1F', '입점3주년기념할인⭐ 인기짱 다홍에그타르트', 1, 1, '2021-07-13 02:15:56');
 ```
 
 ## API
