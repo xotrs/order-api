@@ -102,7 +102,7 @@ spring-boot application 시작
 
 5. 여러 회원 목록 조회, 단일 회원 상세 정보 조회, 단일 회원의 주문 목록 조회
 - 해당 API는 위에서 로그인 시 발급 받은 access_token을 통해서 통신을 할 수 있습니다.
-- swagger의 Authorize 기능을 이용할 수 있으며, access_token을 입력할 때는 **prefix로 Bearer를 꼭 붙여주시면 감사하겠습니다.**
+- swagger의 Authorize 기능에서 access_token을 입력할 때는 **prefix로 Bearer를 붙여주시면 감사하겠습니다.**
 - 자세한 사항은 swagger를 통해서 확인하실 수 있습니다.
 
 ## swagger 주소
